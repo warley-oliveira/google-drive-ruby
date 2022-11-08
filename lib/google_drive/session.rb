@@ -155,7 +155,7 @@ module GoogleDrive
         client_id: config.client_id,
         client_secret: config.client_secret,
         scope: config.scope,
-        redirect_uri: 'urn:ietf:wg:oauth:2.0:oob'
+        redirect_uri: 'http://localhost'
       )
 
       if config.refresh_token
